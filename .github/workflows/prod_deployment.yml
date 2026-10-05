@@ -35,7 +35,4 @@ jobs:
         env:
           DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }}
           DATABRICKS_BUNDLE_ENV: prod
-          DATABRICKS_BUNDLE_ENV: prod
-GitHub - databricks/setup-cli: Sets up the Databricks CLI in your GitHub Actions workflow.
-Sets up the Databricks CLI in your GitHub Actions workflow. - databricks/setup-cli
- 
+      
