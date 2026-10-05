@@ -29,6 +29,12 @@ resources:
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
 
+        - task_key: new_table
+          notebook_task:
+            notebook_path: ../src/new_table.ipynb
+            
+ 
+
       environments:
         - environment_key: default
           spec:
