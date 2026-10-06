@@ -33,6 +33,9 @@ resources:
           notebook_task:
             notebook_path: ../src/new_table.ipynb
             
+        - task_key: q1_result
+          notebook_task:
+            notebook_path: ../src/q1_result.ipynb    
  
 
       environments:
