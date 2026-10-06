@@ -25,22 +25,16 @@ resources:
           notebook_task:
             notebook_path: ../src/transaction_summary.ipynb
 
+        - task_key: Q2_transactions_summary
+          notebook_task:
+            notebook_path: ../src/Q2_transaction_summary.ipynb
+
+
         - task_key: customer360
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
 
-        - task_key: new_table
-          notebook_task:
-            notebook_path: ../src/new_table.ipynb
-            
-        - task_key: q1_result
-          notebook_task:
-            notebook_path: ../src/q1_result.ipynb    
 
-        - task_key: testing_new_table
-          notebook_task:
-            notebook_path: ../src/testing_new_table.ipynb 
- 
 
       environments:
         - environment_key: default
