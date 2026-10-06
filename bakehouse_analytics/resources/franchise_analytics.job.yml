@@ -17,7 +17,7 @@ resources:
         - name: catalog
           default: ${var.catalog}
         - name: schema
-          default:${var.schema}
+          default: ${var.schema}
       email_notifications:
         no_alert_for_skipped_runs: false
       environments:
