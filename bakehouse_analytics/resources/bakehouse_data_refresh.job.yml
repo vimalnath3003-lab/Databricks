@@ -21,7 +21,7 @@ resources:
         - name: schema
           default: ${var.schema}
       tasks:
-        - task_key: transactions_summary
+        - task_key: transaction_summary
           notebook_task:
             notebook_path: ../src/transaction_summary.ipynb
 
@@ -34,7 +34,19 @@ resources:
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
 
+        - task_key: new_table
+          notebook_task:
+            notebook_path: ../src/new_table.ipynb
 
+        - task_key: transaction_history
+          notebook_task:
+            notebook_path: ../src/transaction_history.ipynb
+
+        - task_key: transaction_state
+          notebook_task:
+            notebook_path: ../src/transaction_state.ipynb       
+            
+ 
 
       environments:
         - environment_key: default
