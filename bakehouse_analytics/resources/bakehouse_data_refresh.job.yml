@@ -25,6 +25,11 @@ resources:
           notebook_task:
             notebook_path: ../src/transaction_summary.ipynb
 
+        - task_key: Q2_transactions_summary
+          notebook_task:
+            notebook_path: ../src/Q2_transaction_summary.ipynb
+
+
         - task_key: customer360
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
