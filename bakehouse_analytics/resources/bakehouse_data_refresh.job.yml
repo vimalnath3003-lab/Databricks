@@ -40,7 +40,11 @@ resources:
 
         - task_key: transaction_history
           notebook_task:
-            notebook_path: ../src/transaction_history.ipynb    
+            notebook_path: ../src/transaction_history.ipynb
+
+        - task_key: transaction_state
+          notebook_task:
+            notebook_path: ../src/transaction_state.ipynb       
             
  
 
