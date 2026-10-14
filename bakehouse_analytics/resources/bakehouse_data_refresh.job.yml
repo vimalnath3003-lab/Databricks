@@ -54,6 +54,10 @@ resources:
           notebook_task:
             notebook_path: ../src/transaction_source.ipynb   
 
+        - task_key: transaction_source_2
+          notebook_task:
+            notebook_path: ../src/transaction_source_2.ipynb     
+
         - task_key: transaction_fire
           notebook_task:
             notebook_path: ../src/transaction_fire.ipynb        
